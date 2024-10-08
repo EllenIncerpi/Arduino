@@ -13,3 +13,31 @@ void loop()
   digitalWrite(7, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
+
+
+
+
+
+
+
+// C++ code
+//
+void setup()
+{
+  pinMode(7, OUTPUT); 
+  pinMode(3, OUTPUT);
+  pinMode(11, OUTPUT);
+}
+
+
+void loop()
+{
+  digitalWrite(3, HIGH);
+  digitalWrite(7, LOW);
+  digitalWrite(11, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(7, HIGH);
+  digitalWrite(3, LOW);
+  digitalWrite(11, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
