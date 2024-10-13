@@ -1,0 +1,64 @@
+// C++ code
+//
+void setup()
+{
+  pinMode(13, OUTPUT); // ROXO
+  pinMode(12, OUTPUT); // PRETO
+  pinMode(11, OUTPUT); // AZUL
+  pinMode(10, OUTPUT); // VERDE
+}
+
+void loop()
+{
+  digitalWrite(10, HIGH); // 0001 OK
+  delay(1000); 
+  digitalWrite(10, LOW);
+  delay(1000); 
+  
+  digitalWrite(11, HIGH); // 0010 OK
+  delay(1000); 
+  digitalWrite(11, LOW);
+  delay(1000);
+  
+  digitalWrite(11, HIGH); // 0011 OK
+  digitalWrite(10, HIGH);
+  delay(1000); 
+  digitalWrite(11, LOW);
+  digitalWrite(10, LOW);
+  delay(1000); 
+  
+  digitalWrite(12, HIGH); // 0100 OK
+  digitalWrite(12, LOW);
+  
+  
+  digitalWrite(10, HIGH); // 0101 OK
+  digitalWrite(12, HIGH);
+  delay(1000); 
+  digitalWrite(11, LOW);
+  digitalWrite(10, LOW);
+  delay(1000);
+  
+  digitalWrite(12, HIGH); // 0110
+  digitalWrite(11, HIGH);
+  delay(1000); 
+  digitalWrite(12, LOW);
+  digitalWrite(11, LOW);
+  delay(1000);
+  
+  digitalWrite(12, HIGH); // 0111
+  digitalWrite(11, HIGH);
+  digitalWrite(10, HIGH);
+  delay(1000); 
+  digitalWrite(12, LOW);
+  digitalWrite(11, LOW);
+  digitalWrite(10, LOW);
+  delay(1000);
+  
+  digitalWrite(11, HIGH); // 1000
+  delay(1000); 
+  digitalWrite(11, LOW);
+  delay(1000);
+
+  
+
+}
