@@ -1,0 +1,125 @@
+// C++ code
+//
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+  pinMode(10, OUTPUT);
+  
+  pinMode(9, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(6, OUTPUT);
+}
+
+void loop()
+{
+  //LOOP 1 - SEGMENTO EM CONJUNTO
+ 
+  digitalWrite(13, HIGH); // vermelho
+  (1000);
+  digitalWrite(9, HIGH); // vermelho
+  delay(1000);
+  digitalWrite(13, LOW);
+  (1000);
+  digitalWrite(9, LOW);
+  delay(1000);
+  
+ 
+  digitalWrite(12, HIGH); // verde
+  (1000); 
+  digitalWrite(8, HIGH); // verde
+  delay(1000); 
+  digitalWrite(12, LOW);
+  (1000);
+  digitalWrite(8, LOW);
+  delay(1000);
+  
+  
+  digitalWrite(11, HIGH); // amarelo
+  (1000); 
+  digitalWrite(7, HIGH); // amarelo
+  delay(1000);
+  digitalWrite(11, LOW);
+  (1000); 
+  digitalWrite(7, LOW);
+  delay(1000);
+  
+  
+  digitalWrite(10, HIGH); // azul
+  (1000);
+  digitalWrite(6, HIGH); // azul
+  delay(1000); 
+  digitalWrite(10, LOW);
+  (1000); 
+  digitalWrite(6, LOW);
+  delay(1000);
+  
+  //LOOP 2 - LIGAR TODOS AO MESMO TEMPO
+  
+  digitalWrite(13, HIGH); // vermelho
+  digitalWrite(12, HIGH); // verde
+  digitalWrite(11, HIGH); // amarelo 
+  digitalWrite(10, HIGH); // azul
+  digitalWrite(9, HIGH); // vermelho
+  digitalWrite(8, HIGH); // verde
+  digitalWrite(7, HIGH); // amarelo
+  digitalWrite(6, HIGH); // azul
+  delay(1000);
+  
+  //teste LOOP 3
+  
+  digitalWrite(13, LOW); // vermelho
+  digitalWrite(12, LOW); // verde
+  digitalWrite(11, LOW); // amarelo 
+  digitalWrite(10, LOW); // azul
+  digitalWrite(9,  LOW); // vermelho
+  digitalWrite(8,  LOW); // verde
+  digitalWrite(7,  LOW); // amarelo
+  digitalWrite(6,  LOW); // azul
+  delay(1000);
+ 
+  //LOOP 4 - LIGA - DESLIGA 
+  
+  digitalWrite(13, LOW); // vermelho
+  (1000);
+  digitalWrite(13, HIGH); // vermelho
+  (1000);
+  
+  digitalWrite(12, LOW); // verde
+  (1000);
+  digitalWrite(12, HIGH); // verde
+  (1000);
+  
+  digitalWrite(11, LOW); // amarelo
+  (1000); 
+  digitalWrite(11, HIGH); // amarelo
+  (1000);
+  
+  digitalWrite(10, LOW); // azul
+  (1000);
+  digitalWrite(10, HIGH); // azul
+  (1000);
+  
+  digitalWrite(9, LOW); // vermelho
+  (1000);
+  digitalWrite(9, HIGH); // vermelho
+  (1000);
+  
+  digitalWrite(8, LOW); // verde
+  (1000);
+  digitalWrite(8, HIGH); // verde
+  (1000);
+  
+  digitalWrite(7, LOW); // amarelo
+  (1000);
+   digitalWrite(7, HIGH); // amarelo
+  (1000);
+  
+  digitalWrite(6, LOW); // azul
+  (1000);
+  digitalWrite(6, HIGH); // azul
+  (1000);
+  
+}
