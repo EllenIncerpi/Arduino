@@ -1,7 +1,7 @@
 # Arduino
 
-Relatórios das minhas atividades no Senai, no curso Soluções Integradas com IOT 
-Site: TinkerCad
+Relatórios das minhas atividades no Senai, no curso Soluções Integradas com IOT, 
+Site: TinkerCad.
 
 
 
