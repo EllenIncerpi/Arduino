@@ -31,3 +31,71 @@ void loop()
   digitalWrite(LEDRED, LOW);
   delay(THE); // Wait for 1000 millisecond(s)
 }
+
+
+
+// C++ code
+//
+
+int LEDBLUE = 7 ;
+int LEDGREEN = 8 ;
+int LEDRED = 5 ;
+
+void setup()
+{
+  pinMode(LEDBLUE, OUTPUT);
+  pinMode(LEDGREEN, OUTPUT);
+  pinMode(LEDRED, OUTPUT);
+  
+}
+
+void loop()
+{
+  int THE = 204 ;
+  digitalWrite(LEDRED, HIGH);
+  delay(THE); // Wait for 1000 millisecond(s)
+  digitalWrite(LEDRED, LOW);
+  delay(THE); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(LEDBLUE, HIGH);
+  delay(THE); // Wait for 1000 millisecond(s)
+  digitalWrite(LEDBLUE, LOW);
+  delay(THE); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(LEDRED, HIGH);
+  delay(THE); // Wait for 1000 millisecond(s)
+  digitalWrite(LEDRED, LOW);
+  delay(THE); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(LEDGREEN, HIGH);
+  delay(THE); // Wait for 1000 millisecond(s)
+  digitalWrite(LEDGREEN, LOW);
+  delay(THE); // Wait for 1000 millisecond(s)
+  
+ 
+   digitalWrite(LEDGREEN, HIGH);
+   digitalWrite(LEDGREEN, LOW);
+   delay(THE);
+  
+   digitalWrite(LEDRED, HIGH);
+   digitalWrite(LEDRED, LOW);
+   delay(THE);
+  
+   digitalWrite(LEDBLUE, HIGH);
+   digitalWrite(LEDBLUE, LOW);
+   delay(THE);
+  
+  
+ digitalWrite(LEDGREEN, HIGH);
+ digitalWrite(LEDRED, HIGH);
+ digitalWrite(LEDBLUE, HIGH);
+ delay(THE);
+ 
+ digitalWrite(LEDGREEN, LOW);
+ digitalWrite(LEDRED, LOW);
+ digitalWrite(LEDBLUE, LOW);
+ delay(THE);
+  
+  
+  
+}
